@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b8143a5e17.js" crossorigin="anonymous"></script>>
+
+</header>
+
+<body>
+
+    <div>
+        <h1>POMODORO CLOCK</h1>
+
+    </div>
+
+    <div class="half" style="float: left;">
+        <div>
+            Session
+        </div>
+        <button class="btn" id="session-up"><i class="far fa-plus-square med-button"></i></button>
+        <span id="session-timer">TIME</span>
+        <button class="btn" id="session-down"><i class="far fa-minus-square med-button"></i></button>
+    </div> 
+    <div class="half" style="float: right;">
+        <div>
+            Break
+        </div>
+        <button class="btn" id="break-up"><i class="far fa-plus-square med-button"></i></button>
+        <span id="break-timer">TIME</span>
+        <button class="btn" id="break-down"><i class="far fa-minus-square med-button"></i></button>
+    </div>
+    <div style="height: 80px"> </div>
+    <div>
+        <div class="dashboard">
+            <div class="half" style="float: left;">
+                <button class="btn" id="play-button"><i class="far fa-play-circle big-button"></i></button>
+            </div>
+            <div class="half" style="float: right;">
+                <button class="btn" id="reset"><i class="fas fa-sync-alt big-button"></i></button>
+            </div>
+        </div>
+        <h2 id="sesOrBreak">SESSION</h2>
+        <h1 id="mainDisplay">STUFF</h1>
+        <div class="dashboard">
+            <div class="half" style="float: left;">
+                <button class="btn" id="pause"><i class="far fa-pause-circle big-button"></i></button>
+            </div>
+            <div class="half" style="float: right;">
+                <button class="btn" id="stop"><i class="far fa-stop-circle big-button"></i></button>
+            </div>
+        </div class="dashboard">
+    </div>
+
+
+    <script src="pomodoro.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+
+<div class="calculatorFace">
+    <div class="displayPanel" id="disp">
+        <h1>-</h1>
+    </div>
+    <div class="flexContainer">
+        <button type="button" class="button numberButton" id="7" onClick="convertToNumber(this.id);">7</button>
+        <button type="button" class="numberButton" id="8" onClick="convertToNumber(this.id);">8</button>
+        <button type="button" class="numberButton" id="9" onClick="convertToNumber(this.id);">9</button>
+        <button type="button" class="bigButton" onClick="clearDisplay();">CLEAR</button>
+    </div>
+    <div class=flexContainer>
+        <button type="button" class="numberButton" id="4" onClick="convertToNumber(this.id);">4</button>
+        <button type="button" class="numberButton" id="5" onClick="convertToNumber(this.id);">5</button>
+        <button type="button" class="numberButton" id="6" onClick="convertToNumber(this.id);">6</button>
+        <button type="button" class="operatorButton" id="*" onClick="addToDisplay(this.id);">X</button>
+        <button type="button" class="operatorButton" id="/" onClick="addToDisplay(this.id);">/</button>
+    </div>
+    <div class="flexContainer">
+        <button type="button" class="numberButton" id="1" onClick="convertToNumber(this.id);">1</button>
+        <button type="button" class="numberButton" id="2" onClick="convertToNumber(this.id);">2</button>
+        <button type="button" class="numberButton" id="3" onClick="convertToNumber(this.id);">3</button>
+        <button type="button" class="operatorButton" id="+" onClick="addToDisplay(this.id);">+</button>
+        <button type="button" class="operatorButton" id="-" onClick="addToDisplay(this.id);">-</button>
+    </div>
+    <div class="flexContainer">
+        <button type="button" class="zeroButton" id="0" onClick="convertToNumber(this.id);">0</button>
+        <button type="button" class="numberButton" id="." onClick="convertToNumber(this.id);">.</button>
+        <button type="button" class="bigButton" id="=" onClick="equals();">=</button>
+    </div>
+
+</div>
+
+<script src="calculator.js"></script>
+</body>
+
+
+
+</html>
